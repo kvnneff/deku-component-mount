@@ -1,0 +1,36 @@
+{
+  "name": "deku-component-mount",
+  "version": "1.0.0",
+  "description": "Mount a Deku component to the DOM",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mochify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kvnneff/deku-component-mount.git"
+  },
+  "keywords": [
+    "deku",
+    "mount",
+    "app",
+    "dom"
+  ],
+  "author": "Kevin Neff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kvnneff/deku-component-mount/issues"
+  },
+  "homepage": "https://github.com/kvnneff/deku-component-mount#readme",
+  "devDependencies": {
+    "component-mock": "0.0.2",
+    "mochify": "^2.14.2",
+    "virtual-element": "^1.2.0"
+  },
+  "dependencies": {
+    "deku": "^0.5.6"
+  }
+}
